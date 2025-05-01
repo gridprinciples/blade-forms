@@ -19,7 +19,7 @@ class Radio extends Component
         public ?string $id = null,
         public ?string $value = null,
         public string|Htmlable|null|ComponentSlot $label = null,
-        public ?ComponentSlot $wrapper = null,
+        public ?ComponentSlot $wrapper = new ComponentSlot,
         public array|ComponentAttributeBag $wrapperAttributes = [],
         public array|ComponentAttributeBag $labelAttributes = [],
     ) {
