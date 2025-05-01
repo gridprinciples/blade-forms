@@ -2,6 +2,10 @@
 
 All notable changes to `blade-forms` will be documented in this file.
 
+## Laravel 12 release - 2025-05-01
+
+Update the package for use in Laravel 12.
+
 ## Hotfix release - 2024-05-20
 
 Highlights:
