@@ -17,12 +17,12 @@
     ],
     "require": {
         "php": "^8.2",
-        "illuminate/contracts": "^11.0"
+        "illuminate/contracts": "^12.0"
     },
     "require-dev": {
         "laravel/pint": "^1.14",
         "nunomaduro/collision": "^8.1.1",
-        "orchestra/testbench": "^9.0.0",
+        "orchestra/testbench": "^10.0.0",
         "phpunit/phpunit": "^11.1",
         "symfony/dom-crawler": "^7.0"
     },
