@@ -2,6 +2,7 @@
 
 namespace GridPrinciples\BladeForms;
 
+use GridPrinciples\BladeForms\View\Components\Form;
 use Illuminate\Support\Facades\Blade;
 use Illuminate\Support\ServiceProvider;
 
@@ -33,7 +34,7 @@ class BladeFormsServiceProvider extends ServiceProvider
             // using <x-form::form>, but this makes it easier to read.
             Blade::component(
                 $shortcutName,
-                \GridPrinciples\BladeForms\View\Components\Form::class
+                Form::class
             );
         }
     }
